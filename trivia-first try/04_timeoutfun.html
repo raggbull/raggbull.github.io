@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Fun Count!</title>
+  <style>
+    button {
+      padding: 10px 15px;
+      margin: 20px auto;
+      color: #FFFFFF;
+      border: 0 none;
+      border-radius: 3px;
+      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+      cursor: pointer !important;
+    }
+    #textbox {
+          height: 28px;
+    }
+  </style>
+<body>
+
+
+<input type="text" id="textbox">
+<button style="background-color: #4583D1; cursor: pointer;" onclick="startCount()">Start count!</button>
+<button style="background-color: #C24C4C" onclick="stopCount()">Stop count!</button>
+<button style="background-color: #555" onclick="resetCount()">Reset count!</button>
+
+
+<script>
+var c = 0;
+var t;
+var timer_is_on = 0;
+
+function timedCount() {
+    document.getElementById("textbox").value = c;
+    c = c + 1;
+    t = setTimeout(timedCount, 1000);
+}
+
+function startCount() {
+    if (!timer_is_on) {
+        timer_is_on = 1;
+        timedCount();
+    }
+}
+
+function stopCount() {
+    clearTimeout(t);
+    timer_is_on = 0;
+}
+
+function resetCount() {
+    timer_is_on = 0;
+    c = 0;
+    document.getElementById("textbox").value = c;
+}
+</script>
+
+</body>
+</html>

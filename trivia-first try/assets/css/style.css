@@ -1,0 +1,68 @@
+
+
+
+    body, html {
+      height: 100%;
+      font-family: 'Raleway', sans-serif;
+    }
+    body {
+      background-image: url(".jpg");
+      background-size: cover;
+      background-color:rgb(178, 207, 241);
+      margin: 0px auto;
+      position: relative;
+     
+    }
+    
+    #content {
+  
+      color: white;
+      height: 100%;
+      /* min-width: 400px; */
+      font-family: 'Raleway', sans-serif;
+      color: black;
+      
+   
+    }
+    
+    /*-----SIDEBAR STYLING-----*/
+    #sideBar {
+      background-color: rgba(167, 162, 162, 0.5);
+      height: 60%;
+      padding:10px;
+      border: 5px solid black;
+      position: fixed; 
+      margin-left: 30px;
+      color: yellow;
+   
+    }
+    #rules {
+      background-color: rgba(167, 162, 162, 0.5);
+      max-width: 800px;
+      margin: 0 auto;
+      padding:15px;
+      border: 5px solid black;
+    }
+    h1,h2, h3, p{
+      text-align: center;
+    }
+    .question, .answers{
+      width: 50%;
+      margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+    }
+    button{
+      background-color: rgba(0,0,0,.6);
+      width: 10%;
+      height: 40px;
+      opacity: 1 !important;
+      margin-top: 30px;
+      position: relative;
+      left: 40%;
+      transform: translateX(-50%);
+    }
+    #wrapper{
+      margin-left: 350px;
+      padding: 10px;
+    }
