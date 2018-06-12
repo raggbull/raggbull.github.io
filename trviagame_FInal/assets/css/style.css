@@ -1,0 +1,89 @@
+
+
+
+ body {
+	text-align: center;
+}
+
+.jumbotron {
+	background-image: url(../img/blue.jpg);
+	height: 650px;
+	background-size: cover;
+	background-position: top;
+
+}
+
+h1 {
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 0;
+	width: 500px;
+	color: #df4c27;
+	font-family: 'Libre Baskerville', serif;
+	font-family: 'Jua', sans-serif;
+	font-size: 50px;
+	
+
+}
+
+.countdown {
+	margin-top: 50px;
+	color: #95c526;
+	
+}
+
+.question {
+	margin: 10px 160px;
+	color: #f5eff1;
+	text-shadow: rgb(15, 2, 2) 0px 0px 10px;
+	font-weight: bold;
+}
+
+.questionholder {
+	padding-top: 20px;
+}
+
+.correct-answer {
+	color: #e2d5d5;
+	font-weight: bold;
+
+}
+
+.incorrect-answer {
+	color: #970006;
+	font-weight: bold;
+
+}
+
+
+.btn {
+	margin: 20px;
+	padding: 10px 50px;
+	color: red;
+	font-size: 25px;
+	border-radius: 0;
+	color: #FFC720;
+}
+
+
+.btn.btn-danger {
+	margin-top: 80px;
+	padding: 10px 50px;
+	font-size: 20px;
+	background-color: yellow;
+}
+
+
+.choice {
+	display: block;
+	margin: 10px auto;
+}
+
+
+
+
+
+
+.multiplechoice {
+	margin-top: 20px;
+}
