@@ -1,0 +1,66 @@
+
+   body{
+    background-color: lightblue;
+    background-image: url("http://wallpaperweb.org/wallpaper/digital_art/1920x1200/708_crystals.jpg");
+    background-size: cover;
+    color: whitesmoke;  
+    font-size: 0px;
+    margin: 0px auto;
+  
+} 
+  .jumbotron {
+    background-image: url("http://wallpaperweb.org/wallpaper/digital_art/1920x1200/708_crystals.jpg");
+    background-size: cover;
+    color: white;
+    padding: 0.5em 0.6em;
+  }
+  .instructions {
+    text-align: center; 
+    color: aquamarine;
+    margin-top: 10px;
+  }
+  h1{
+    font-weight: 900;
+    color: aqua;
+    font-family: 'Summit''Droid Serif', Georgia, Times, serif;
+    font-size: 49px;
+    line-height: 65px;
+  }
+  
+  p {
+    font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 15px;
+   }
+   h2, h3{
+    font-family: 'Droid Sans', Helvetica, Arial, sans-serif; 
+   }
+  .col-sm-3 figure {
+    padding: 10px;
+    transition: transform .2s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.col-sm-3 figure:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+    
+}
+/* h3, h2{
+  text-align: center;
+  color: black;
+  font-weight: 900;
+} */
+/* #border-box { 
+  background-color: lightblue;
+  width: 325px;
+  padding: 1em 0;
+  border: 5px solid rgba(156, 224, 251, .5);
+} */
+/* dont need */
+/* .footer {
+  text-align: center;
+} */

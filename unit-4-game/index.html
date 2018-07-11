@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Crystal Clear</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="jumbotron text-center">
+        <h1>Crystal Collector!</h1>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 instructions">
+                <h2>How to Play</h2>
+                <p>You will be given a random number at the start of the game.</p>
+                <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+                <p>You win the game by matching your total score to the random number. You lost the game if your total score goes above the random number.</p>
+                <p>The value of each crystal is hidden from you until you click on it.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="border-box">
+                    <h2>Random Number: <span id="number">0</span></h2>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2>Your total score: <span id="total">0</span></h2>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <h3> <span id="wins"></span></h3>
+                        <h3 class="text-left"> <span id="losses"></span></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-sm-3">
+                <figure>
+                    <img src="assets/img/green.png" class="crystal" id="green" alt="green crystal" width="150" height="150" />
+                </figure>
+            </div>
+            <div class="col-sm-3">
+                <figure>
+                    <img src="assets/img/grey.png" class="crystal" id="grey" alt="grey crystal" width="150" height="150" />
+                </figure>
+            </div>
+            <div class="col-sm-3">
+                <figure>
+                    <img src="assets/img/clear.png" class="crystal" id="clear" alt="clear crystal" width="175" height="175" />
+                </figure>
+            </div>
+            <div class="col-sm-3">
+                <figure>
+                    <img src="assets/img/red.png" class="crystal" id="red" alt="red crystal" width="150" height="150" />
+                </figure>
+            </div>
+        </div>
+       
+        <!-- <div class="footer">
+            <footer class="footer text-center">
+                <div class="container">
+            
+                    <p> &copy; Copyright JJH.com</p>
+                </div>
+            </footer>
+            </div>
+            -->
+    </div>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="javascript/game.js"></script>
+</body>
+
+</html>
